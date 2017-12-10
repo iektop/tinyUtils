@@ -104,7 +104,7 @@
 		if(attributesObject.title) element.title = attributesObject.title;
 		if(attributesObject.target) element.target = attributesObject.target;
 		if(attributesObject.type) element.type = attributesObject.type;
-		if(attributesObject.classes) element.classes = attributesObject.classes;
+		if(attributesObject.classes) element.className = attributesObject.classes;
 		if(attributesObject.id) element.id = attributesObject.id;
 		return element;
 	}
